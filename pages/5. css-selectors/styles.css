@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #eee;
+  color: #212121;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.page p:first-of-type {
+  color: #7e8184;
+  font-style: italic;
+}
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+.synopsis em {
+  font-style: normal;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+a:visited:hover {
+  color: orange;
+}
+a:visited:active {
+  color: red;
+}
+
+.button,
+.button:visited {
+  display: block;
+  text-decoration: none;
+
+  color: #fff;
+  background-color: #5995da;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5d6063;
+  border-radius: 0.5rem;
+
+  width: 15rem;
+  margin: 20px auto;
+}
+.button:hover,
+.button:visited:hover {
+  color: #fff;
+  background-color: #76aeed;
+}
+.button:active,
+.button:visited:active {
+  color: #fff;
+  background-color: #5995da;
+}
+
+.call-to-action {
+  font-style: italic;
+  background-color: #eeb75a;
+}
+.call-to-action,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #eeb75a;
+}
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #f5cf83;
+}
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #eeb75a;
+}
+
+p:last-of-type {
+  margin-bottom: 50px;
+}
