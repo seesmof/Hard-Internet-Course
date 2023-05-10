@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #414141;
+  background-color: #eee;
+  font-size: 17px;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.6em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: inherit;
+}
+a:hover {
+  color: #666;
+  transition: all 0.5s ease-in-out;
+}
+
+ul > li:nth-child(1) {
+  list-style-type: disc;
+}
+ul > li:nth-child(2) {
+  list-style-type: circle;
+}
+ul > li:nth-child(3) {
+  list-style-type: square;
+}
+
+ol > li:nth-child(1) {
+  list-style-type: decimal;
+}
+ol > li:nth-child(2) {
+  list-style-type: lower-roman;
+}
+ol > li:nth-child(3) {
+  list-style-type: upper-roman;
+}
+ol > li:nth-child(4) {
+  list-style-type: lower-alpha;
+}
+ol > li:nth-child(5) {
+  list-style-type: upper-alpha;
+}
+ol > li:nth-child(6) {
+  list-style-type: square;
+}
