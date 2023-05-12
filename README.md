@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-<br />
 <div align="center">
   <a href="https://github.com/seesmof/university">
     <img src="./img/interneting-is-hard-logo-97b225.1eb3a58f.svg" alt="Logo" width="80" height="80">
