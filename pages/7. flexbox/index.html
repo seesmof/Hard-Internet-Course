@@ -12,6 +12,9 @@
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
     <style type="text/tailwindcss">
       @layer components {
+        .photo-grid-item {
+          @apply border-solid border border-white w-72 h-72 object-cover;
+        }
       }
     </style>
     <title>Flexbox Tutorial</title>
@@ -55,6 +58,26 @@
               alt="socail icons"
               class="max-w-full"
             />
+          </div>
+        </div>
+      </div>
+
+      <div class="photo-grid-container flex justify-center">
+        <div class="photo-grid flex flex-wrap justify-start max-w-4xl">
+          <div class="photo-grid-item frist-item w-">
+            <img src="./img/one.svg" alt="image one" class="" />
+          </div>
+          <div class="photo-grid-item">
+            <img src="./img/two.svg" alt="image two" class="" />
+          </div>
+          <div class="photo-grid-item">
+            <img src="./img/three.svg" alt="image three" class="" />
+          </div>
+          <div class="photo-grid-item">
+            <img src="./img/four.svg" alt="image four" class="" />
+          </div>
+          <div class="photo-grid-item">
+            <img src="./img/five.svg" alt="image five" class="" />
           </div>
         </div>
       </div>
